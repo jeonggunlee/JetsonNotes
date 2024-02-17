@@ -35,3 +35,7 @@ $ pip install 'pillow<7' # always needed for Python 2.7, not needed torchvision 
 ## tensorRT
 TensorRT: 8.5.2.2
   - binary directory: /usr/src/tensorrt/bin/
+
+
+## DeepStream
+Refer to [the site](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
