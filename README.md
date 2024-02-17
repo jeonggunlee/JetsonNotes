@@ -64,3 +64,11 @@ yolo predict model=yolov8n.pt imgsz=640 conf=0.25
 
 ## DeepStream
 Refer to [the site](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
+
+```
+aiac-nx@ubuntu:~$ deepstream-app --help
+deepstream-app: error while loading shared libraries: libgstrtspserver-1.0.so.0: cannot open shared object file: No such file or directory
+>> Need to install the library.
+aiac-nx@ubuntu:~$ sudo apt-get install libgstrtspserver-1.0-0
+
+```
