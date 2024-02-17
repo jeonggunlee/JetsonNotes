@@ -54,6 +54,9 @@ TensorRT: 8.5.2.2
 ## Yolo
 ```
 pip3 install ultralytics
+mkdir ultralytics
+cd ultralytics
+yolo predict model=yolov8n.pt imgsz=640 conf=0.25
 ```
 ![image](https://github.com/jeonggunlee/JetsonNotes/assets/7118106/406def27-a756-469c-a05e-cb3199ddd968)
 
