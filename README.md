@@ -21,7 +21,6 @@ sudo python3 -m pip install onnx
 Follow the [guide](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
 ```
-python3 setup.py install --user
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libopenblas-dev libavcodec-dev libavformat-dev libswscale-dev
 $ git clone --branch <version> https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download
       # git clone --branch 0.15.1 https://github.com/pytorch/vision torchvision
