@@ -55,6 +55,8 @@ TensorRT: 8.5.2.2
 ```
 pip3 install ultralytics
 ```
+![image](https://github.com/jeonggunlee/JetsonNotes/assets/7118106/406def27-a756-469c-a05e-cb3199ddd968)
+
 
 ## DeepStream
 Refer to [the site](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
