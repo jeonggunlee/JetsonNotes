@@ -10,6 +10,7 @@ sudo -H pip3 install -U jetson-stats
 sudo reboot
 jtop
 ```
+![image](https://github.com/jeonggunlee/JetsonNotes/assets/7118106/ff1b788d-d866-44d7-b91b-a60abe48bca3)
 
 ## onnx install
 
