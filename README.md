@@ -18,4 +18,4 @@ sudo python3 -m pip install onnx
 ```
 
 ## torch and torchvision install
-Follow the [guid](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
+Follow the [guide](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
