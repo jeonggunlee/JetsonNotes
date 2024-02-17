@@ -51,6 +51,10 @@ $ cd ../  # attempting to load torchvision from build dir will result in import 
 TensorRT: 8.5.2.2
   - binary directory: /usr/src/tensorrt/bin/
 
+## Yolo
+```
+pip3 install ultralytics
+```
 
 ## DeepStream
 Refer to [the site](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
