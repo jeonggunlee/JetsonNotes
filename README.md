@@ -47,8 +47,8 @@ $ python3 setup.py install --user
 $ cd ../  # attempting to load torchvision from build dir will result in import error
 ```
 
-## tensorRT
-TensorRT: 8.5.2.2
+## TensorRT
+TensorRT: 8.5.2.2 or 8.6.2.3
   - binary directory: /usr/src/tensorrt/bin/
   - add "```export PATH=$PATH:/usr/src/tensorrt/bin/```" in .bashrc
 
