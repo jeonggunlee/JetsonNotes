@@ -70,5 +70,15 @@ aiac-nx@ubuntu:~$ deepstream-app --help
 deepstream-app: error while loading shared libraries: libgstrtspserver-1.0.so.0: cannot open shared object file: No such file or directory
 >> Need to install the library.
 aiac-nx@ubuntu:~$ sudo apt-get install libgstrtspserver-1.0-0
+```
 
+```
+aiac-nx@ubuntu:~$ deepstream-app --version-all
+deepstream-app version 6.4.0
+DeepStreamSDK 6.4.0
+CUDA Driver Version: 12.2
+CUDA Runtime Version: 12.2
+TensorRT Version: 8.6
+cuDNN Version: 8.9
+libNVWarp360 Version: 2.0.1d3
 ```
