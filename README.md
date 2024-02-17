@@ -50,6 +50,7 @@ $ cd ../  # attempting to load torchvision from build dir will result in import 
 ## tensorRT
 TensorRT: 8.5.2.2
   - binary directory: /usr/src/tensorrt/bin/
+  - add "```export PATH=$PATH:/usr/src/tensorrt/bin/```" in .bashrc
 
 ## Yolo
 ```
