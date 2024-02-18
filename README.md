@@ -82,3 +82,10 @@ TensorRT Version: 8.6
 cuDNN Version: 8.9
 libNVWarp360 Version: 2.0.1d3
 ```
+
+## v4l-utils
+
+The **v4l2-ctl** tool is used to control video4linux devices,
+```
+sudo apt-get install v4l-utils
+```
