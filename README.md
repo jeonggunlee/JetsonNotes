@@ -88,4 +88,7 @@ libNVWarp360 Version: 2.0.1d3
 The **v4l2-ctl** tool is used to control video4linux devices,
 ```
 sudo apt-get install v4l-utils
+
+v4l2-ctl --device=/dev/video1 --all
+
 ```
