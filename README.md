@@ -17,11 +17,21 @@ jtop
 ```
 ![image](https://github.com/jeonggunlee/JetsonNotes/assets/7118106/ff1b788d-d866-44d7-b91b-a60abe48bca3)
 
+## CUDA supported OpenCV install
+check the [link](https://github.com/Qengineering/Install-OpenCV-Jetson-Nano)
+
+```
+$ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-10-0.sh
+$ sudo chmod 755 ./OpenCV-4-10-0.sh
+$ ./OpenCV-4-10-0.sh
+```
+
 ## onnx install
 
 ```
 sudo python3 -m pip install onnx
 ```
+
 
 ## torch and torchvision install
 
