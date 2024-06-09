@@ -104,3 +104,7 @@ v4l2-ctl --device=/dev/video1 --all
 gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080, framerate=30/1, format=MJPG ! nvv4l2decoder mjpeg=1 ! nvvidconv ! videocrop name=cropper  ! xvimagesink sync=False
 
 ```
+
+Install https://github.com/jetsonhacks/camera-caps for a GUI based camera control.
+
+
