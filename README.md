@@ -19,11 +19,16 @@ jtop
 
 ## CUDA supported OpenCV install
 check the [link](https://github.com/Qengineering/Install-OpenCV-Jetson-Nano)
-
+check the [link](https://qengineering.eu/install-opencv-on-orin-nano.html)
 ```
 $ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-10-0.sh
 $ sudo chmod 755 ./OpenCV-4-10-0.sh
 $ ./OpenCV-4-10-0.sh
+# once the installation is done...
+$ rm OpenCV-4-10-0.sh
+# just a tip to save an additional 315 MB
+$ sudo rm -rf ~/opencv
+$ sudo rm -rf ~/opencv_contrib
 ```
 
 ## onnx install
