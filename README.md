@@ -67,6 +67,22 @@ $ python3 setup.py install --user
 $ cd ../  # attempting to load torchvision from build dir will result in import error
 ```
 
+```
+sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev
+pip3 install 'Cython<3'
+wget https://developer.download.nvidia.cn/compute/redist/jp/v512/pytorch/torch-2.1.0a0+41361538.nv23.06-cp38-cp38-linux_aarch64.whl
+pip3 install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl
+
+
+sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libopenblas-dev libavcodec-dev libavformat-dev libswscale-dev
+git clone --branch v0.16.1 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download
+cd torchvision
+export BUILD_VERSION=0.16.1  # where 0.x.0 is the torchvision version  
+python3 setup.py install --user
+cd ../
+```
+
+
 ## TensorRT
 TensorRT: 8.5.2.2 or 8.6.2.3
   - binary directory: /usr/src/tensorrt/bin/
