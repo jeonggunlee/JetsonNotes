@@ -19,6 +19,7 @@ jtop
 
 ## CUDA supported OpenCV install
 check the [link](https://github.com/Qengineering/Install-OpenCV-Jetson-Nano)
+
 check the [link](https://qengineering.eu/install-opencv-on-orin-nano.html)
 ```
 $ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-10-0.sh
