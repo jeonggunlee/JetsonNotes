@@ -4,6 +4,10 @@
 ```
 sudo snap install chromium
 ```
+OR
+```
+sudo apt-get install chromium-browser
+```
 
 ## jtop install
 ```
