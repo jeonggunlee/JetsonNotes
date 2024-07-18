@@ -131,6 +131,23 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080,
 
 ```
 
+
+## Jetson Inference
+Check [link](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)
+
+```
+sudo apt-get update
+sudo apt-get install git cmake libpython3-dev python3-numpy
+git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+mkdir build
+cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+```
+
 Install https://github.com/jetsonhacks/camera-caps for a GUI based camera control.
 
 
